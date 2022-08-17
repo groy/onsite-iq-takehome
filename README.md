@@ -8,6 +8,7 @@ Assumptions:
 3) No filtering was added (by status, or search)
 4) Forgot to ask what information to display for the candidates chose Name, Photo and email. Could easily expand this to include Address, Gender, Location, local
 5) Rather than building a login page, defining Account details, I defaulted the logged in user to myself. Likely should have centralized the storage for that, but didn't.
+6) Project was started based of [KYT](https://github.com/nytimes/kyt) which includes `pretty lights` for css styles. Never used it before so figured I would try it. Going forward I would likely go back to using `styled-components` as I did with the global styles as they are a bit more intuitive.
 
 
 Requirements:
