@@ -5,7 +5,6 @@ import * as styles from './styled';
 import GlobalStyle from './globalStyles';
 
 export const Home = dynamic(() => import(/* webpackChunkName: "home" */ '../Home'));
-export const Tools = dynamic(() => import(/* webpackChunkName: "tools" */ '../Tools'));
 
 function App() {
   return (
